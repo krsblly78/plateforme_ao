@@ -15,11 +15,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+# urls.py (racine du projet)
+# backend/urls.py
 from django.contrib import admin
-from django.urls import path
-#from tenders.views import pipeline
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    #path('pipeline/', pipeline, name='pipeline'),
+    path('', include('tenders.urls')),  # Décommentez après avoir créé le fichier
 ]
