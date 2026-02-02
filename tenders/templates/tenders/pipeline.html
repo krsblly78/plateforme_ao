@@ -1,0 +1,33 @@
+<!-- tenders/templates/tenders/pipeline.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pipeline AO</title>
+</head>
+<body>
+    <h1>Pipeline des appels d'offres</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Titre</th>
+                <th>Source</th>
+                <th>Statut</th>
+                <th>Date publication</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tender in tenders %}
+            <tr>
+                <td>{{ tender.external_id }}</td>
+                <td>{{ tender.title }}</td>
+                <td>{{ tender.source }}</td>
+                <td>{{ tender.status }}</td>
+                <td>{{ tender.published_at }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

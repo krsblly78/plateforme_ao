@@ -1,0 +1,243 @@
+
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+    
+
+    
+    
+        <title>Recherche BOAMP  | boamp.fr &mdash; boamp.fr</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Language" content="fr-FR">
+
+        
+
+        
+
+    <link rel="icon" href="/assets/favicon?tstamp=162505703329">
+
+
+
+        
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" type="text/css" href="/static/vendor/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/vendor/normalize/normalize.css">
+    <link rel="stylesheet" href="/static/pictos/odsui/odsui.css" type="text/css">
+
+    <base href="/pages/recherche/">
+
+
+    
+    
+
+    <link rel="canonical" href="https://www.boamp.fr/pages/recherche/">
+
+    
+
+    <link rel="stylesheet" href="/css/front-angular.css?215" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheet/215.css">
+
+    
+    <link type="text/css" href="/static/react-bundles/css/1253.1b7b2192.css" rel="stylesheet" />
+<link type="text/css" href="/static/react-bundles/css/7058.24d10d39.css" rel="stylesheet" />
+<link type="text/css" href="/static/react-bundles/css/angularjs-frontoffice.33ef6d4e.css" rel="stylesheet" />
+    
+
+    </head>
+    <body>
+        
+    
+    
+    <div class="ods-content">
+
+        <header class="ng-cloak" role="banner" ng-controller="HeaderController">
+        
+            
+                
+                    {{ bo_host = "https://compte.boamp.fr" ;
+''
+}}
+
+
+<div class="is-front dil-boamp" ng-init="show_mobile_menu=false" style="{{show_mobile_menu ? 'top: px;' : '' }}">
+
+    <div class="layout-container">
+
+        <div class="fr-header">
+            <div class="fr-skiplinks">
+                <nav aria-label="Accès rapide" class="fr-container" role="navigation">
+
+
+                    <div class="fr-skiplinks__list">
+                        <ods-skip-to-content-link></ods-skip-to-content-link>
+
+                    </div>
+                </nav>
+            </div>
+
+            <div class="fr-header__body">
+                <div class="fr-container">
+                    <div class="fr-header__body-row">
+                        <div class="fr-header__brand fr-enlarge-link">
+                            <div class="fr-header__brand-top">
+                                <div class="fr-header__logo">
+                                    <p class="fr-logo">République
+                                        <br/>
+                                        française
+                                    </p>
+                                </div>
+                                <div class="fr-header__navbar">
+                                    <button aria-controls="modal-833" aria-haspopup="menu" class="fr-btn--menu fr-btn" data-fr-opened="{{show_mobile_menu ? true : false}}" ng-click="show_mobile_menu = true" title="Menu">
+                                        Menu
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="fr-header__service">
+                                <a href="/" title="BOAMP.fr - Bulletin officiel des annonces des marchés publics - Accueil">
+                                    <p class="fr-header__service-title">BOAMP.fr</p>
+                                </a>
+                                <p class="fr-header__service-tagline">Bulletin officiel des annonces des marchés publics</p>
+                            </div>
+                        </div>
+
+                        <div class="fr-header__tools" id="user_connect">
+
+                            <div class="fr-header__tools-links">
+                                <ul class="fr-btns-group">
+
+                                   
+                                    <li class="fr-shortcuts__item" id="goto-espace-acheteur">
+                                        <a class="fr-btn fr-btn--tertiary-no-outline" href="https://acheteur.boamp.fr/pages/acheteur-accueil/" target="_self">Espace acheteur public</a>
+                                    </li>
+
+
+
+                                    <li class="fr-shortcuts__item">
+                                        <a class="fr-btn fr-fi-account-line fr-btn--icon-left" href="{{bo_host}}/login" target="_self">Service
+                                            d'alerte</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            <div aria-labelledby="button-834" aria-modal=" show_mobile_menu ? true : false" class="fr-header__menu fr-modal {{show_mobile_menu ? 'fr-modal--opened' : '' }}" id="modal-833" role="dialog">
+                <div class="fr-container">
+                    <button aria-controls="modal-833" class="fr-link--close fr-link" ng-click="show_mobile_menu = false">
+                        Fermer
+                    </button>
+                    <div class="fr-header__menu-links"></div>
+                    <nav aria-label="Menu principal" class="fr-nav" id="header-navigation" role="navigation">
+                        <ul class="fr-nav__list">
+
+                            <li class="fr-nav__item menu_list_private">
+                                <a class="fr-nav__link" href="/pages/entreprise-accueil/" id="accueil" ng-click="show_mobile_menu = false" target="_self">
+                                    Accueil espace entreprise
+                                </a>
+                            </li>
+
+                            <li class="fr-nav__item menu_list_private">
+                                <a class="fr-nav__link" href="/pages/recherche/" id="Rechercher un marché public" ng-click="show_mobile_menu = false" target="_self">
+                                    Rechercher un marché public
+                                </a>
+                            </li>
+
+                            <li class="fr-nav__item menu_list_private">
+                                <a class="fr-nav__link" href="/pages/entreprise-service-dalerte/" id="Alertes" ng-click="show_mobile_menu = false" target="_self">
+                                    Alertes
+                                </a>
+                            </li>
+
+                            <li class="fr-nav__item menu_list_private">
+                                <a class="fr-nav__link" href="/pages/entreprise-reglementation/" id="Réglementation" ng-click="show_mobile_menu = false" target="_self">
+                                    Réglementation
+                                </a>
+                            </li>
+
+                            <li class="fr-nav__item menu_list_private">
+                                <a class="fr-nav__link" href="/pages/a-propos/" id="À propos" ng-click="show_mobile_menu = false" target="_self">
+                                    À propos
+                                </a>
+                            </li>
+
+
+                            <li class="fr-nav__item menu_list_private">
+                                <a class="fr-nav__link" href="/pages/entreprise-actualites" id="Actualites" ng-click="show_mobile_menu = false" target="_self">
+                                    Actualités
+                                </a>
+                            </li>
+
+
+                            <li class="fr-nav__item menu_list_api">
+                                <a class="fr-nav__link" href="/pages/api-boamp/" id="api-boamp" ng-click="show_mobile_menu = false" target="_self">
+                                    API
+                                </a>
+                            </li>
+
+                            <li class="fr-nav__item menu_list_private" ng-if="show_mobile_menu">
+                                <a class="fr-nav__link" href="https://acheteur.boamp.fr/pages/acheteur-accueil/" id="espace_acheteur" ng-click="show_mobile_menu = false" target="_self">
+                                    Espace Acheteur Public
+                                </a>
+                            </li>
+
+                            <li class="fr-nav__item menu_list_private" ng-if="show_mobile_menu">
+                                <a class="fr-nav__link" href="{{bo_host}}/login" id="service_alerte_home" ng-click="show_mobile_menu = false" target="_self">
+                                    Service
+                                    d'alerte
+                                </a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                
+            
+        
+        </header>
+        <main id="main" role="main" class="main--page">
+    <div ng-app="ods.frontend" ng-controller="PageController">
+        <div class="page-layout ng-cloak">
+            <style type="text/css" ods-bind-angular-content="blocks.css"></style>
+            <div ods-bind-angular-content="blocks.html"></div>
+        </div>
+    </div>
+</main>
+    </div>
+    
+
+    
+        <footer id="footer" role="contentinfo" ng-controller="FooterController">
+        
+            <div class="fr-footer" id="footer">
+    <div class="fr-footer__top">
+        <div class="fr-container">
+            <div class="fr-grid-row fr-grid-row--start fr-grid-row--gutters">
+
+                <div class="fr-col-12 fr-col-sm-4 fr-col-md-2">
+                    <h2 class="fr-footer__top-cat menu_list_private">Aide et contact</h2>
+                    <ul class="fr-footer__top-list">
+                        <li>
+                            <a class="fr-footer__top-link" href="/pages/aide/">Aide et questions fréquentes</a>
+                        </li>
+                        <li>
+                            <a class="fr-footer__top-link" href="https://compte.boamp.fr/pages/contact-entr
