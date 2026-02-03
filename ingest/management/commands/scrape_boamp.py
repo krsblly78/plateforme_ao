@@ -188,6 +188,8 @@ class Command(BaseCommand):
         except Exception as e:
             self.stderr.write(f"\n❌ Erreur sauvegarde: {e}")
 
+    
+
 
 
 
