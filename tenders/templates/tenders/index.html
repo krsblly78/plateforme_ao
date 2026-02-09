@@ -1,38 +1,109 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Avis BOAMP DOM-TOM</title>
-    <style>
-        table { width: 100%; border-collapse: collapse; }
-        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
-        tr:hover { background-color: #f5f5f5; }
-    </style>
-</head>
-<body>
-    <h1>{{ total }} avis de marchés DOM-TOM</h1>
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Titre</th>
-                <th>N° Avis</th>
-                <th>Type</th>
-                <th>Date Publication</th>
-                <th>Lien</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for avi in avis %}
-            <tr>
-                <td>{{ avi.titre }}</td>
-                <td>{{ avi.numero_avis }}</td>
-                <td>{{ avi.type_marche }}</td>
-                <td>{{ avi.date_publication }}</td>
-                <td><a href="{{ avi.lien }}" target="_blank">Voir sur BOAMP</a></td>
-            </tr>
+<!-- templates/index.html -->
+{% extends "./base.html" %}
+{% load static %}
+
+{% block title %}
+    {% if ao.titre %}{{ ao.titre|truncatechars:50 }} - PIL-MÉDIA{% else %}Dashboard AO - PIL-MÉDIA{% endif %}
+{% endblock %}
+
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static './css/index.css' %}">
+{% endblock %}
+
+{% block content %}
+<header class="header">
+    <div class="header-title">
+        <h1>Pipeline des Appels d'Offres</h1>
+        <div class="header-subtitle">Vue d'ensemble de vos opportunités en cours</div>
+    </div>
+    <div class="header-actions">
+        <button class="btn btn-secondary">
+            <span>🔄</span>
+            Synchroniser
+        </button>
+        <button class="btn btn-primary">
+            <span>➕</span>
+            Nouveau scraping
+        </button>
+    </div>
+</header>
+
+<!-- Stats Cards -->
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-header">
+            <div class="stat-label">Total AO</div>
+            <div class="stat-icon" style="background: rgba(11, 132, 243, 0.2); color: var(--primary-blue);">📊</div>
+        </div>
+        <div class="stat-value">{{ total_ao }}</div>
+        <div class="stat-change">↗ +12% ce mois</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div class="stat-label">En cours</div>
+            <div class="stat-icon" style="background: rgba(30, 202, 211, 0.2); color: var(--primary-turquoise);">⚡</div>
+        </div>
+        <div class="stat-value">{{ ao_en_cours }}</div>
+        <div class="stat-change">↗ +5 cette semaine</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div class="stat-label">Taux de réussite</div>
+            <div class="stat-icon" style="background: rgba(16, 185, 129, 0.2); color: #10B981;">🎯</div>
+        </div>
+        <div class="stat-value">{{ taux_reussite }}%</div>
+        <div class="stat-change">↗ +3% vs. dernier mois</div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-header">
+            <div class="stat-label">Soumis</div>
+            <div class="stat-icon" style="background: rgba(245, 158, 11, 0.2); color: #F59E0B;">📤</div>
+        </div>
+        <div class="stat-value">{{ soumis }}</div>
+        <div class="stat-change">En attente de résultat</div>
+    </div>
+</div>
+
+<!-- Pipeline Section -->
+<section class="pipeline-section">
+    <div class="section-header">
+        <h2 class="section-title">Pipeline par statut</h2>
+    </div>
+
+    <div class="pipeline-grid">
+        {% for statut, aos in pipeline.items %}
+        <div class="pipeline-column">
+            <div class="column-header">
+                <div class="column-title">
+                    <span class="column-badge badge-{{ statut|lower }}"></span>
+                    {{ statut }}
+                </div>
+                <div class="column-count">{{ aos|length }}</div>
+            </div>
+            
+            {% for ao in aos %}
+            <div class="tender-card" onclick="window.location.href='/tenders/{{ ao.id }}/'">
+                <div class="tender-header">
+                    <div class="tender-title">{{ ao.titre }}</div>
+                    <div class="tender-source">{{ ao.source }}</div>
+                </div>
+                <div class="tender-buyer">{{ ao.autorite_contractante }}</div>
+                <div class="tender-footer">
+                    <div class="tender-date">📅 {{ ao.date_publication }}</div>
+                    {% if ao.urgent %}
+                    <div class="tender-deadline deadline-soon">⏰ {{ ao.jours_restants }} jours</div>
+                    {% else %}
+                    <div class="tender-deadline">⏰ {{ ao.jours_restants }} jours</div>
+                    {% endif %}
+                </div>
+            </div>
             {% endfor %}
-        </tbody>
-    </table>
-</body>
-</html>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

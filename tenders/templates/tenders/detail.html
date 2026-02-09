@@ -1,78 +1,113 @@
-<!-- templates/tenders/detail.html - VERSION CORRIGÉE -->
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Détail AO - {% if ao.titre %}{{ ao.titre|truncatechars:50 }}{% else %}Appel d'offres{% endif %}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container">
-            <a class="navbar-brand" href="/ao/">← Retour à la liste</a>
-            <span class="navbar-text text-white">
-                Détail de l'appel d'offres
+<!-- templates/tenders/detail.html -->
+{% extends "./base.html" %}
+{% load static %}
+
+{% block title %}
+    {% if ao.titre %}{{ ao.titre|truncatechars:50 }} - PIL-MÉDIA{% else %}Détail AO - PIL-MÉDIA{% endif %}
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static './css/detail.css' %}">
+{% endblock %}
+
+{% block content %}
+    <div class="page-header">
+        <div>
+            <h1>Détail de l'appel d'offres</h1>
+            <a href="/ao/" class="btn btn-secondary mt-sm">← Retour à la liste</a>
+        </div>
+    </div>
+
+    {% if ao %}
+    <div class="card">
+        <div class="card-header" style="background-color: var(--bg-primary); border-bottom: 1px solid var(--border);">
+            <h2>{{ ao.titre }}</h2>
+            <span class="badge badge-in-progress">
+                {% if ao.urgent %}Urgent{% else %}En cours{% endif %}
             </span>
         </div>
-    </nav>
-
-    <div class="container mt-4">
-        {% if ao %}
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header bg-primary text-white">
-                        <h4>{{ ao.titre }}</h4>
+        
+        <div class="card-body">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; gap: var(--space-xl);">
+                <div>
+                    <h3 class="section-title">Informations générales</h3>
+                    <div class="list-group">
+                        <div class="list-item">
+                            <strong>Numéro:</strong>
+                            <span>{{ ao.numero_avis|default:"N/A" }}</span>
+                        </div>
+                        <div class="list-item">
+                            <strong>Date publication:</strong>
+                            <span>{{ ao.date_publication|default:"-" }}</span>
+                        </div>
+                        <div class="list-item">
+                            <strong>Date limite:</strong>
+                            <span>{{ ao.date_limite_reponse|default:"Non spécifiée" }}</span>
+                        </div>
+                        <div class="list-item">
+                            <strong>Type de marché:</strong>
+                            <span>{{ ao.type_marche|default:"-" }}</span>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5>Informations générales</h5>
-                                <p><strong>Numéro:</strong> {{ ao.numero_avis|default:"N/A" }}</p>
-                                <p><strong>Date publication:</strong> {{ ao.date_publication|default:"-" }}</p>
-                                <p><strong>Date limite:</strong> {{ ao.date_limite_reponse|default:"Non spécifiée" }}</p>
-                                <p><strong>Type:</strong> {{ ao.type_marche|default:"-" }}</p>
-                            </div>
-                            <div class="col-md-6">
-                                <h5>Localisation</h5>
-                                <p><strong>Département(s):</strong>
-                                    {% for dept in ao.departements %}
-                                    <span class="badge bg-primary">{{ dept }}</span>
-                                    {% empty %}
-                                    Non spécifié
-                                    {% endfor %}
-                                </p>
-                                <p><strong>Acheteur:</strong> {{ ao.autorite_contractante|default:"-" }}</p>
+                </div>
+                
+                <div>
+                    <h3 class="section-title">Localisation & Acheteur</h3>
+                    <div class="list-group">
+                        <div class="list-item">
+                            <strong>Département(s):</strong>
+                            <div class="flex flex-wrap gap-sm">
+                                {% for dept in ao.departements %}
+                                <span class="badge badge-dept">{{ dept }}</span>
+                                {% empty %}
+                                <span class="text-muted">Non spécifié</span>
+                                {% endfor %}
                             </div>
                         </div>
-                        
-                        {% if ao.lien %}
-                        <div class="mt-4">
-                            <h5>Lien direct</h5>
-                            <a href="{{ ao.lien }}" target="_blank" class="btn btn-primary">
-                                Voir l'annonce complète sur BOAMP
-                            </a>
+                        <div class="list-item">
+                            <strong>Acheteur:</strong>
+                            <span>{{ ao.autorite_contractante|default:"-" }}</span>
                         </div>
-                        {% endif %}
-                    </div>
-                    <div class="card-footer text-muted">
-                        Source: {{ ao.source|default:"BOAMP" }}
+                        <div class="list-item">
+                            <strong>Source:</strong>
+                            <span>{{ ao.source|default:"BOAMP" }}</span>
+                        </div>
                     </div>
                 </div>
             </div>
+            
+            {% if ao.lien %}
+            <div class="mt-xl pt-lg border-top">
+                <h3 class="mb-md">Accès direct</h3>
+                <a href="{{ ao.lien }}" target="_blank" class="btn btn-primary">
+                    Voir l'annonce complète sur BOAMP
+                </a>
+                <p class="text-muted mt-sm">
+                    Ouverture dans un nouvel onglet
+                </p>
+            </div>
+            {% endif %}
         </div>
-        {% else %}
-        <div class="alert alert-danger">
-            <h4>Appel d'offres non trouvé</h4>
-            <p>L'appel d'offres demandé n'existe pas ou n'est plus disponible.</p>
-            <a href="/ao/" class="btn btn-outline-primary">
-                Retour à la liste
-            </a>
+        
+        <div class="card-footer" style="border-top: 1px solid var(--border); padding: var(--space-lg);">
+            <div class="flex justify-between items-center">
+                <span class="text-muted">
+                    Dernière mise à jour: {% now "DATETIME_FORMAT" %}
+                </span>
+                <div class="flex gap-sm">
+                    <a href="/ao/" class="btn btn-secondary">Retour à la liste</a>
+                    <button onclick="window.print()" class="btn btn-secondary">Imprimer</button>
+                </div>
+            </div>
         </div>
-        {% endif %}
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    {% else %}
+    <div class="alert alert-danger">
+        <h4>Appel d'offres non trouvé</h4>
+        <p>L'appel d'offres demandé n'existe pas ou n'est plus disponible.</p>
+        <div class="mt-md">
+            <a href="/ao/" class="btn btn-primary">Retour à la liste</a>
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}

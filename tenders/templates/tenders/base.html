@@ -1,0 +1,74 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+{% load static %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}G.Take - Gestion des Appels d'Offres{% endblock %}</title>
+    
+    <!-- Polices -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS commun -->
+    <link rel="stylesheet" href="{% static './css/base.css' %}">
+    
+    <!-- CSS spécifique à la page -->
+    {% block extra_css %}{% endblock %}
+    
+    <!-- CSS inline si nécessaire -->
+    {% block inline_css %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">G</div>
+                <div class="logo-text">G.Take</div>
+            </div>
+
+            <nav class="nav">
+                <a href="/" class="nav-item {% if request.path == '/' %}active{% endif %}">
+                    <div class="nav-icon"></div>
+                    <span>Dashboard</span>
+                </a>
+                <a href="/tenders/" class="nav-item {% if '/tenders/' in request.path %}active{% endif %}">
+                    <div class="nav-icon"></div>
+                    <span>Appels d'offres</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="nav-icon"></div>
+                    <span>Documents</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="nav-icon"></div>
+                    <span>Statistiques</span>
+                </a>
+                <a href="#" class="nav-item">
+                    <div class="nav-icon"></div>
+                    <span>Paramètres</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="user-avatar"></div>
+                    <div class="user-info">
+                        <div class="user-name">Admin</div>
+                        <div class="user-role">Administrateur</div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+    
+    <!-- JavaScript -->
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

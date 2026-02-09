@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-02-03T09:33:16.838422",
-    "total_displayed": 668,
-    "api_total": 668,
+    "generated_at": "2026-02-05T11:12:32.279067",
+    "total_displayed": 681,
+    "api_total": 681,
     "source": "boamp_opendatasoft_api",
     "filter": "avis_en_cours"
   },
@@ -274,20 +274,6 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Fourniture de livres non scolaires destinés aux écoles publiques de la commune de Saint Paul",
-      "numero_avis": "25-123595",
-      "date_publication": "2025-11-07",
-      "date_limite_reponse": "",
-      "departements": [
-        "974"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-123595",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "Caisse des Ecoles de Saint-Paul",
-      "nature_avis": "Résultat de marché"
-    },
-    {
       "titre": "Maîtrise d'oeuvre urbaine pour l'aménagement de l'ancien hôpital André Bouron",
       "numero_avis": "25-123537",
       "date_publication": "2025-11-07",
@@ -300,48 +286,6 @@
       "type_marche": "Services",
       "autorite_contractante": "COMMUNE DE SAINT LAURENT DU MARONI",
       "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Acquisition de denrées alimentaires - relance",
-      "numero_avis": "25-123596",
-      "date_publication": "2025-11-07",
-      "date_limite_reponse": "",
-      "departements": [
-        "974"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-123596",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "Ville de Saint-Paul",
-      "nature_avis": "Résultat de marché"
-    },
-    {
-      "titre": "Fourniture de matériels électriques pour Odyssi",
-      "numero_avis": "25-124011",
-      "date_publication": "2025-11-08",
-      "date_limite_reponse": "",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-124011",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "Odyssi",
-      "nature_avis": "Résultat de marché"
-    },
-    {
-      "titre": "FOURNITURE  DE MATERIEL DE TELEGESTION",
-      "numero_avis": "25-123915",
-      "date_publication": "2025-11-08",
-      "date_limite_reponse": "",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-123915",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "Odyssi",
-      "nature_avis": "Résultat de marché"
     },
     {
       "titre": "OPERATION DE RESORPTION DE RADIERS SUBMERSIBLES SUR LE TERRITOIRE DE LA COMMUNE DE SAINT-PAUL",
@@ -1072,20 +1016,6 @@
       "nature_avis": "Avis de marché"
     },
     {
-      "titre": "Extension et modernisation du port de pêche de SINNAMARY - Phase B-1 : Aménagement en faveur des activités maritimes - Aire de carénage équipée.",
-      "numero_avis": "25-138073",
-      "date_publication": "2025-12-15",
-      "date_limite_reponse": "",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-138073",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Commune de Sinnamary",
-      "nature_avis": "Rectificatif"
-    },
-    {
       "titre": "Acquisition de deux véhicule neufs utilitaire pour les services techniques de la Ville de Macouria + remplacement des véhicules réformés",
       "numero_avis": "25-137721",
       "date_publication": "2025-12-16",
@@ -1377,20 +1307,6 @@
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "Office de l'eau Réunion",
-      "nature_avis": "Résultat de marché"
-    },
-    {
-      "titre": "Etude stratégique visant à améliorer la gestion des eaux pluviales dans les zones d'activité économique des Mangles, de Californie et de la Lézarde au Lamentin",
-      "numero_avis": "25-141336",
-      "date_publication": "2025-12-24",
-      "date_limite_reponse": "",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-141336",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Communauté d'Agglomération Centre Martinique CACEM",
       "nature_avis": "Résultat de marché"
     },
     {
@@ -1786,20 +1702,6 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Mission d'Assistance à Maîtrise d'Ouvrage (AMO) pour la structuration de la filière viande bovine et ruminants de la Communauté de Communes du Sud",
-      "numero_avis": "26-176",
-      "date_publication": "2026-01-05",
-      "date_limite_reponse": "",
-      "departements": [
-        "976"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-176",
-      "source": "api",
-      "type_marche": "",
-      "autorite_contractante": "Communauté de Communes du Sud (976)",
-      "nature_avis": "Résultat de marché"
-    },
-    {
       "titre": "ANALYSES DES EAUX POTABLES ET USEES, ANALYSES HYGIENIQUES DES RESERVOIRS ET ANALYSES DES BOUES ET SABLES SUR LE TERRITOIRE DE LA CACEM",
       "numero_avis": "26-426",
       "date_publication": "2026-01-06",
@@ -2038,20 +1940,6 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "ASSISTANCE A MAITRISE D'OUVRAGE POUR LA MISE EN PLACE DE LA PROSPECTIVE TERRITORIALE ET L'ELABORATION DE SCENARIOS A HORIZON 2050 A MAYOTTE.",
-      "numero_avis": "26-1770",
-      "date_publication": "2026-01-08",
-      "date_limite_reponse": "",
-      "departements": [
-        "976"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-1770",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Département de Mayotte",
-      "nature_avis": "Rectificatif"
-    },
-    {
       "titre": "Entretien et maintenance des équipements de la restauration scolaire de la Commune de Saint-Paul",
       "numero_avis": "26-1244",
       "date_publication": "2026-01-08",
@@ -2078,6 +1966,20 @@
       "type_marche": "Services",
       "autorite_contractante": "GRAND PORT MARITIME DE LA REUNION",
       "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "ASSISTANCE A MAITRISE D'OUVRAGE POUR LA MISE EN PLACE DE LA PROSPECTIVE TERRITORIALE ET L'ELABORATION DE SCENARIOS A HORIZON 2050 A MAYOTTE.",
+      "numero_avis": "26-1770",
+      "date_publication": "2026-01-08",
+      "date_limite_reponse": "",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-1770",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Département de Mayotte",
+      "nature_avis": "Rectificatif"
     },
     {
       "titre": "FOURNITURE DE SIMULATEURS FEUX AVEC TRAITEMENT DES FUMEES PAR LAVAGE A L'EAU POUR LE SDIS DE LA GUYANE",
@@ -2318,20 +2220,6 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "REHABILITATION DU PALAIS DES SPORTS DU LAMENTIN - LOT N° 2",
-      "numero_avis": "26-3586",
-      "date_publication": "2026-01-12",
-      "date_limite_reponse": "",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-3586",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Mairie du Lamentin",
-      "nature_avis": "Résultat de marché"
-    },
-    {
       "titre": "ASSISTANCE A MAITRISE D’OUVRAGE POUR LA MISE EN PLACE DE LA PROSPECTIVE TERRITORIALE ET\nL’ELABORATION DE SCENARIOS A HORIZON 2050 A MAYOTTE.",
       "numero_avis": "26-3122",
       "date_publication": "2026-01-12",
@@ -2344,6 +2232,20 @@
       "type_marche": "Services",
       "autorite_contractante": "Département de Mayotte",
       "nature_avis": "Rectificatif"
+    },
+    {
+      "titre": "REHABILITATION DU PALAIS DES SPORTS DU LAMENTIN - LOT N° 2",
+      "numero_avis": "26-3586",
+      "date_publication": "2026-01-12",
+      "date_limite_reponse": "",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-3586",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "Mairie du Lamentin",
+      "nature_avis": "Résultat de marché"
     },
     {
       "titre": "Travaux de la RHI MIBOUKINI à TSINGONI",
@@ -3130,20 +3032,6 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Travaux de remplacement de la couverture du gymnase au collège Auguste Dede",
-      "numero_avis": "26-7981",
-      "date_publication": "2026-01-22",
-      "date_limite_reponse": "",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-7981",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Collectivite Territoriale De Guyane",
-      "nature_avis": "Rectificatif"
-    },
-    {
       "titre": "REALISATION D'UNE BASE DE DONNEES PHOTOGRAPHIQUES ET VIDEOGRAPHIQUES",
       "numero_avis": "26-6938",
       "date_publication": "2026-01-22",
@@ -3170,6 +3058,20 @@
       "type_marche": "Fournitures",
       "autorite_contractante": "MAIRIE DE L'ETANG-SALE",
       "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "Travaux de remplacement de la couverture du gymnase au collège Auguste Dede",
+      "numero_avis": "26-7981",
+      "date_publication": "2026-01-22",
+      "date_limite_reponse": "",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-7981",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "Collectivite Territoriale De Guyane",
+      "nature_avis": "Rectificatif"
     },
     {
       "titre": "Marché d'assurance en risques statutaires pour les besoins de la ville du Gosier",
@@ -3928,20 +3830,6 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Fourniture livraison maintenance et assistance de véhicules pour le compte de la CACEM 2025",
-      "numero_avis": "26-10379",
-      "date_publication": "2026-01-31",
-      "date_limite_reponse": "",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-10379",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "Communauté d'Agglomération Centre Martinique CACEM",
-      "nature_avis": "Résultat de marché"
-    },
-    {
       "titre": "Accord-cadre mono attributaire relatif au remplacement, à l’extension et à la maintenance du système de vidéoprotection de l’Aéroport La Réunion Roland GARROS",
       "numero_avis": "26-10260",
       "date_publication": "2026-01-31",
@@ -3970,6 +3858,20 @@
       "nature_avis": "Résultat de marché"
     },
     {
+      "titre": "Fourniture livraison maintenance et assistance de véhicules pour le compte de la CACEM 2025",
+      "numero_avis": "26-10379",
+      "date_publication": "2026-01-31",
+      "date_limite_reponse": "",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-10379",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Communauté d'Agglomération Centre Martinique CACEM",
+      "nature_avis": "Résultat de marché"
+    },
+    {
       "titre": "Prestations de balayage mécanisé sur le réseau routier et sur les\nEquipements des Bâtiments de la Collectivité Territoriale\nde Martinique- 3ème consultation -Lot 1 \"Secteur Nord\"",
       "numero_avis": "26-10688",
       "date_publication": "2026-02-01",
@@ -3981,20 +3883,6 @@
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "COLLECTIVITE TERRITORIALE MARTINIQUE",
-      "nature_avis": "Résultat de marché"
-    },
-    {
-      "titre": "ACQUISITION DE LIVRES SCOLAIRES, SUPPORTS DE LIVRES ET LIVRES NON SCOLAIRES POUR LES ECOLES PUBLIQUES DE SAINT-DENIS",
-      "numero_avis": "26-10492",
-      "date_publication": "2026-02-01",
-      "date_limite_reponse": "",
-      "departements": [
-        "974"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-10492",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "Caisse des Ecoles",
       "nature_avis": "Résultat de marché"
     },
     {
@@ -4010,6 +3898,20 @@
       "type_marche": "Travaux",
       "autorite_contractante": "REGIMENT DU SERVICE MILITAIRE ADAPTE",
       "nature_avis": "Périodique"
+    },
+    {
+      "titre": "ACQUISITION DE LIVRES SCOLAIRES, SUPPORTS DE LIVRES ET LIVRES NON SCOLAIRES POUR LES ECOLES PUBLIQUES DE SAINT-DENIS",
+      "numero_avis": "26-10492",
+      "date_publication": "2026-02-01",
+      "date_limite_reponse": "",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-10492",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Caisse des Ecoles",
+      "nature_avis": "Résultat de marché"
     },
     {
       "titre": "ACQUISITION DE MATERIELS PEDAGOGIQUE POUR LES ECOLES PUBLIQUES DE LA VILLE DE SAINT-DENIS",
@@ -4096,216 +3998,6 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Maîtrise d'oeuvre pour la réfection des aires de jeux de Saint Jean, Gustavia et Flamands à Saint-Barthélemy",
-      "numero_avis": "25-140868",
-      "date_publication": "2025-12-21",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "977"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-140868",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Collectivité de Saint Barthélemy (977)",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "ASSURANCES POUR LA COMMUNAUTE D'AGGLOMERATION GRAND SUD CARAIBE",
-      "numero_avis": "25-142355",
-      "date_publication": "2025-12-26",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "971"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-142355",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "CA Sud Basse-Terre",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Travaux de renouvellement, de renforcement et d'extension de réseaux d'alimentation en eau potable et de protection des berges",
-      "numero_avis": "25-142386",
-      "date_publication": "2025-12-26",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "971"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-142386",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Région Guadeloupe",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Maîtrise d'oeuvre de rénovation du stade municipal de Raie d'Eau à Pointe-Noire",
-      "numero_avis": "25-142918",
-      "date_publication": "2025-12-29",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "971"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-142918",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Spl Coeur D Energie",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "MISSIONS D’ASSISTANCE A MAITRISE D’OUVRAGE DANS LE DOMAINE DE L’ENVIRONNEMENT DANS LE CADRE DU PROJET DE LA NOUVELLE ROUTE DU LITTORAL – PHASE 2",
-      "numero_avis": "25-143047",
-      "date_publication": "2025-12-31",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "974"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-143047",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "RÉGION RÉUNION",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "FOURNITURE D’OBJETS PROMOTIONNELS ET DE SUPPORTS REGLEMENTAIRES DANS LE CADRE DE LA VALORISATION DES AIDES EUROPEENNES POUR LE COMPTE DE LA COLLECTIVITE TERRITORIALE DE MARTINIQUE",
-      "numero_avis": "25-143475",
-      "date_publication": "2026-01-02",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-143475",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "COLLECTIVITE TERRITORIALE MARTINIQUE",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "PRESTATION DE SERVICE POUR L’EXPLOITATION, LA CONDUITE, L’ENTRETIEN ET LA MAINTENANCE DU RESEAU D’IRRIGATION DE VIEUX HABITANTS",
-      "numero_avis": "25-143411",
-      "date_publication": "2026-01-02",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "971"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-143411",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "CA Sud Basse-Terre",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Acquisition de prestations pour l'externalisation de la gestion des entrées en formation des stagiaires de la formation professionnelle et du versement de leur rémunération",
-      "numero_avis": "26-158",
-      "date_publication": "2026-01-04",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-158",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "COLLECTIVITE TERRITORIALE DE GUYANE",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Réalisation du pavillon Guadeloupe à la foire de Paris 2026.",
-      "numero_avis": "26-1236",
-      "date_publication": "2026-01-06",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "971,75"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-1236",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Chambre de Métiers et de l'Artisanat de Guadeloupe",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "PRESTATION DE RESTAURATION LORS DES ACTIONS ET REUNIONS DES SERVICES DE LA COLLECTIVITE",
-      "numero_avis": "26-1232",
-      "date_publication": "2026-01-06",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-1232",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Mairie du Lamentin",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Maintenance des portails du pôle d'échange multimodal de Carrère",
-      "numero_avis": "26-1235",
-      "date_publication": "2026-01-06",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-1235",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Martinique Transport",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Travaux relamping de la plaine des sports de Suzini à Cayenne",
-      "numero_avis": "26-3003",
-      "date_publication": "2026-01-09",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-3003",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Collectivite Territoriale De Guyane",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "LOCATION, LIVRAISON, INSTALLATION, MISE EN SERVICE ET MAINTENANCE DE PHOTOCOPIEURS DESTINES AUX DIFFERENTS SERVICES DU GCS DE MANGOT VULCIN",
-      "numero_avis": "26-3776",
-      "date_publication": "2026-01-13",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "972"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-3776",
-      "source": "api",
-      "type_marche": "Fournitures",
-      "autorite_contractante": "GCS Mangot Vulcin",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Gestion et maintenance des systèmes de géolocalisation des véhicules(pose dépose, maintenance).",
-      "numero_avis": "26-4064",
-      "date_publication": "2026-01-13",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "971"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-4064",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Syndicat Mixte de Gestion de l'Eau et de l'Assainissement de Guadeloupe",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Marché de  travaux de VRD secondaires du projet d’aménagement de Balaté Nord à St Laurent du Maroni",
-      "numero_avis": "26-4481",
-      "date_publication": "2026-01-14",
-      "date_limite_reponse": "2026-02-03",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-4481",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "SEMSAMAR (973)",
-      "nature_avis": "Avis de marché"
-    },
-    {
       "titre": "Travaux d'aménagement de voiries, de revêtement et de renforcement de chaussées sur les routes nationales de l'île 2025-2029",
       "numero_avis": "26-10994",
       "date_publication": "2026-02-03",
@@ -4320,6 +4012,20 @@
       "nature_avis": "Résultat de marché"
     },
     {
+      "titre": "RENOVATION PARTIELLE DU BATIMENT FAV 001 (STO.09) AU PROFIT DU RSMA DE LA MARTINIQUE",
+      "numero_avis": "26-11941",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11941",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "RSMA MARTINIQUE",
+      "nature_avis": "Résultat de marché"
+    },
+    {
       "titre": "FOURNITURE, LIVRAISON ET INSTALLATION DE RECUPERATEURS D'EAU DE PLUIE NON ENTERRES CHEZ DES PARTICULIERS DE LA COMMUNE DE SALAZIE",
       "numero_avis": "26-11241",
       "date_publication": "2026-02-03",
@@ -4331,6 +4037,34 @@
       "source": "api",
       "type_marche": "Fournitures",
       "autorite_contractante": "MAIRIE DE SALAZIE",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "Mission de maîtrise d'oeuvre pour la réhabilitation d'ensemble du hall sportif Georges Donzenac",
+      "numero_avis": "26-11799",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11799",
+      "source": "api",
+      "type_marche": "",
+      "autorite_contractante": "COLLECTIVITE TERRITORIALE DE GUYANE",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "Marche De Mise A Disposition De Photocopieurs Multifonctions A La Sedre Pour La Periode De 2025 à 2028",
+      "numero_avis": "26-11807",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11807",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Sedre",
       "nature_avis": "Résultat de marché"
     },
     {
@@ -4362,6 +4096,20 @@
       "nature_avis": "Résultat de marché"
     },
     {
+      "titre": "Assistance à Maitrise d'Ouvrage Pour l'élaboration d'Une Stratégie Foncière",
+      "numero_avis": "26-11940",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "",
+      "departements": [
+        "971"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11940",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Grand Port Maritime Guadeloupe",
+      "nature_avis": "Rectificatif"
+    },
+    {
       "titre": "Accords-cadres à bons de commande de maintenance des extincteurs et des Robinets Incendie Armés (RIA) équipant les bâtiments du Département de la Réunion pour la période de 2024-2028",
       "numero_avis": "26-10989",
       "date_publication": "2026-02-03",
@@ -4390,130 +4138,130 @@
       "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Mission d’assistance à maîtrise d’ouvrage (AMO) pour les prestations de Contrôleur Technique (CT) et de Coordonnateur de Sécurité et de Protection de la Santé (CSPS) dans le cadre de la réalisation...",
-      "numero_avis": "25-135436",
-      "date_publication": "2025-12-10",
-      "date_limite_reponse": "2026-02-04",
+      "titre": "Remplacement et mise en production de firewalls de nouvelle génération Fortigate - Sécurisation du système d'information d'Odyssi",
+      "numero_avis": "26-11907",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11907",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Odyssi",
+      "nature_avis": "Rectificatif"
+    },
+    {
+      "titre": "Marché de prestation de nettoyage des locaux de la Chambre d'Agriculture de La Réunion",
+      "numero_avis": "26-11955",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
       "departements": [
         "974"
       ],
-      "lien": "https://www.boamp.fr/avis/detail/25-135436",
+      "lien": "https://www.boamp.fr/avis/detail/26-11955",
       "source": "api",
       "type_marche": "Services",
-      "autorite_contractante": "COMMUNAUTE INTERCOMMUNALE NORD REUNION",
-      "nature_avis": "Avis de marché"
+      "autorite_contractante": "Chambre Agriculture de la Réunion",
+      "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Maîtrise d’œuvre pour l’Aménagement du front de mer de Mamoudzou.",
-      "numero_avis": "25-142721",
-      "date_publication": "2025-12-30",
-      "date_limite_reponse": "2026-02-04",
+      "titre": "Modernisation de la plateforme WebSIG de la Ville de Mamoudzou",
+      "numero_avis": "26-11611",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
       "departements": [
         "976"
       ],
-      "lien": "https://www.boamp.fr/avis/detail/25-142721",
+      "lien": "https://www.boamp.fr/avis/detail/26-11611",
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "Ville de Mamoudzou (976)",
-      "nature_avis": "Avis de marché"
+      "nature_avis": "Avis informatif"
     },
     {
-      "titre": "Marché d’Ordonnancement, de Pilotage et de Coordination Urbaine et Interchantiers pour l’aménagement de la façade maritime de Mamoudzou.",
-      "numero_avis": "25-142767",
-      "date_publication": "2025-12-30",
-      "date_limite_reponse": "2026-02-04",
-      "departements": [
-        "976"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/25-142767",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Ville de Mamoudzou (976)",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Travaux de remise en état de l'école de Saül et finalisation de sa construction",
-      "numero_avis": "26-1513",
-      "date_publication": "2026-01-07",
-      "date_limite_reponse": "2026-02-04",
+      "titre": "Maîtrise d'oeuvre pour les travaux d'aménagement de la RD1 route de MONTABO - section comprise entre l'entrée de la cite CASTOR et le giratoire SUZINI -Tranche 2",
+      "numero_avis": "26-11489",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
       "departements": [
         "973"
       ],
-      "lien": "https://www.boamp.fr/avis/detail/26-1513",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Commune de Saul",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Accord Cadre à marchés subséquents mono attributaire élaboration et évolution de formulaires électroniques pour le portail Gestion Relation Clientèle (GRC) de la CINOR – Période 2026-2028",
-      "numero_avis": "26-1901",
-      "date_publication": "2026-01-08",
-      "date_limite_reponse": "2026-02-04",
-      "departements": [
-        "974"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-1901",
+      "lien": "https://www.boamp.fr/avis/detail/26-11489",
       "source": "api",
       "type_marche": "Services",
-      "autorite_contractante": "COMMUNAUTE INTERCOMMUNALE NORD REUNION",
-      "nature_avis": "Avis de marché"
+      "autorite_contractante": "COLLECTIVITE TERRITORIALE DE GUYANE",
+      "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Assistance à Maîtrise d’Ouvrage pour les études de programmation du Patrimoine bâti existant de la Région Réunion",
-      "numero_avis": "26-1779",
-      "date_publication": "2026-01-09",
-      "date_limite_reponse": "2026-02-04",
+      "titre": "Fourniture de pièces détachées pour les véhicules et engins de la ville\r\nLots n° 1,2,3,5,6,7,9 et 15",
+      "numero_avis": "26-11440",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
       "departements": [
-        "974"
+        "972"
       ],
-      "lien": "https://www.boamp.fr/avis/detail/26-1779",
+      "lien": "https://www.boamp.fr/avis/detail/26-11440",
       "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "RÉGION RÉUNION",
-      "nature_avis": "Avis de marché"
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Mairie du Lamentin",
+      "nature_avis": "Résultat de marché"
     },
     {
-      "titre": "Travaux de remplacement de la couverture du gymnase au collège Auguste Dede",
-      "numero_avis": "26-3392",
-      "date_publication": "2026-01-12",
-      "date_limite_reponse": "2026-02-04",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-3392",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Collectivite Territoriale De Guyane",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "Assistance à Maitrise d’Ouvrage pour la réalisation de prestations de conseil en stratégie, montage de projet et de\ndossier de demande de financement",
-      "numero_avis": "26-3596",
-      "date_publication": "2026-01-14",
-      "date_limite_reponse": "2026-02-04",
-      "departements": [
-        "976"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-3596",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "Département de Mayotte",
-      "nature_avis": "Avis de marché"
-    },
-    {
-      "titre": "MAINTENANCE PARC ASCENSEURS VILLE DE LE MOULE",
-      "numero_avis": "26-6452",
-      "date_publication": "2026-01-19",
-      "date_limite_reponse": "2026-02-04",
+      "titre": "la consultation vise à la conclusion de marchés de travaux ayant pour objet l’aménagement du site France Travail Guadeloupe à Capesterre-Belle-Eau.",
+      "numero_avis": "26-12201",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
       "departements": [
         "971"
       ],
-      "lien": "https://www.boamp.fr/avis/detail/26-6452",
+      "lien": "https://www.boamp.fr/avis/detail/26-12201",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "FRANCE TRAVAIL",
+      "nature_avis": "Rectificatif"
+    },
+    {
+      "titre": "Acquisition d'une prestation de tierce maintenance applicative (TMA) sur la plateforme GED Europe de la Région Réunion.",
+      "numero_avis": "26-11493",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11493",
       "source": "api",
       "type_marche": "Services",
-      "autorite_contractante": "Ville de Le Moule",
-      "nature_avis": "Avis de marché"
+      "autorite_contractante": "REGION REUNION",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "Travaux de remise en état et inspection du réservoir de stockage de 800 m³ de gasoil - Centrale thermique des Badamiers (Mayotte)",
+      "numero_avis": "26-12173",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12173",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "Edm électricité de Mayotte",
+      "nature_avis": "Rectificatif"
+    },
+    {
+      "titre": "Procédure adaptée ouverte",
+      "numero_avis": "26-11605",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11605",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Ville de Mamoudzou (976)",
+      "nature_avis": "Avis informatif"
     },
     {
       "titre": "Aménagement de la RN2 et entre l'échangeur Bourbier et le giratoire des Plaines à Saint-Benoît - Lot 1 : Travaux préliminaires Génie Civil - VRD - Démolitions",
@@ -4642,20 +4390,6 @@
       "nature_avis": "Avis de marché"
     },
     {
-      "titre": "RHI Antapagna Tranche 2_Phase 1 - Finalisation des travaux - Lot 18",
-      "numero_avis": "26-6692",
-      "date_publication": "2026-01-20",
-      "date_limite_reponse": "2026-02-05",
-      "departements": [
-        "976"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-6692",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Commune de Chiconi (976)",
-      "nature_avis": "Avis de marché"
-    },
-    {
       "titre": "Travaux de réhabilitation du local du comité social économique (Cse) du Grand Port Maritime de la Guadeloupe (Gpmg)",
       "numero_avis": "26-6912",
       "date_publication": "2026-01-20",
@@ -4667,6 +4401,20 @@
       "source": "api",
       "type_marche": "Travaux",
       "autorite_contractante": "Grand Port Maritime Guadeloupe",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "RHI Antapagna Tranche 2_Phase 1 - Finalisation des travaux - Lot 18",
+      "numero_avis": "26-6692",
+      "date_publication": "2026-01-20",
+      "date_limite_reponse": "2026-02-05",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-6692",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "Commune de Chiconi (976)",
       "nature_avis": "Avis de marché"
     },
     {
@@ -4696,6 +4444,104 @@
       "type_marche": "Services",
       "autorite_contractante": "Ville de Koungou (976)",
       "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Marché de travaux de restauration de l'église Saint-Antoine de Padoue classée monument historique à Saül",
+      "numero_avis": "26-12661",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12661",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "Commune de Saul",
+      "nature_avis": "Rectificatif"
+    },
+    {
+      "titre": "FOURNITURE D'UNE SOLUTION DE GEOLOCALISATION EN TEMPS REEL DES VEHICULES DE LA VILLE , DU CCAS ET DE LA CAISSE DES ECOLES",
+      "numero_avis": "26-11945",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11945",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "COMMUNE DU TAMPON",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "Impression de documents de communication",
+      "numero_avis": "26-11798",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11798",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Commune de Petite-Ile",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "FOURNITURE DE PRODUITS PETROLIERS ET PRESTATIONS de CARTES CARBURANT POUR LES ETABLISSEMENTS DU GHT DE MARTINIQUE",
+      "numero_avis": "26-11698",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11698",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "CHU DE LA MARTINIQUE",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "Accord-cadre de prestation de service  pour l'évacuation des sargasses",
+      "numero_avis": "26-11764",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "",
+      "departements": [
+        "977"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11764",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Collectivité de Saint Barthélemy (977)",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "Maîtrise d'oeuvre pour l'aménagement VRD de la voie territoriale n°209 entre Marigot et Toiny",
+      "numero_avis": "26-11629",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "",
+      "departements": [
+        "977"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11629",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Collectivité de Saint Barthélemy (977)",
+      "nature_avis": "Résultat de marché"
+    },
+    {
+      "titre": "MAPA. DESIGNATION D'UN FACILITATEUR-TRICE DES CLAUSES SOCIALES ET ENVIRONNEMENTALES EN ACCOMPAGNEMENT ET EN SUIVI DES MARCHES PUBLICS DU SYNDICAT MIXTE ILEVA",
+      "numero_avis": "26-12435",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12435",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Syndicat Mixte ILEVA",
+      "nature_avis": "Résultat de marché"
     },
     {
       "titre": "Marché de travaux pour la réhabilitation de l'ancienne école GIBBS en maison des associations- Grand Case- Saint-Martin",
@@ -6378,6 +6224,20 @@
       "nature_avis": "Avis de marché"
     },
     {
+      "titre": "Mission De Maîtrise D'oeuvre Relative à La Protection Du Site De L'école Maternelle De Mangajou (Mur et dispositifs de protection littorale)",
+      "numero_avis": "26-11969",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-02-16",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11969",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Mairie De Sada",
+      "nature_avis": "Avis de marché"
+    },
+    {
       "titre": "Achat et livraison de fournitures de bureau pour les services du Conseil Départemental de Mayotte_relance",
       "numero_avis": "26-2869",
       "date_publication": "2026-01-11",
@@ -6672,6 +6532,34 @@
       "nature_avis": "Avis de marché"
     },
     {
+      "titre": "Transport en bus des lycéens au Salon de l'Orientation, de la Formation et des Métiers dans les locaux de Guadeloupe Formation - Rougeol Petit-Bourg  les 4, 5 et 6 mars 2026",
+      "numero_avis": "26-11943",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "2026-02-19",
+      "departements": [
+        "971"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11943",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Région Guadeloupe",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Aquisition d'un camion simple cabine avec 5 bennes deposables _ Relance",
+      "numero_avis": "26-12192",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-02-19",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12192",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Ville de Dembeni (976)",
+      "nature_avis": "Avis de marché"
+    },
+    {
       "titre": "études géotechniques relatives à la réhabilitation de l'ancienne décharge de la Bergerie",
       "numero_avis": "25-138922",
       "date_publication": "2025-12-18",
@@ -6921,6 +6809,20 @@
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "CANGT",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Modernisation de la plateforme WebSIG de la Ville de Mamoudzou",
+      "numero_avis": "26-11991",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-02-20",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11991",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Ville de Mamoudzou (976)",
       "nature_avis": "Avis de marché"
     },
     {
@@ -7442,6 +7344,20 @@
       "nature_avis": "Avis de marché"
     },
     {
+      "titre": "Fourniture, livraison et installation de cabines acoustiques pour les Bibliothèques Universitaires (BU) de l'université des Antilles",
+      "numero_avis": "26-12327",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-02-24",
+      "departements": [
+        "971"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12327",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Université des Antilles",
+      "nature_avis": "Avis de marché"
+    },
+    {
       "titre": "Marché de travaux relative à la construction d'un ensemble immobilier de 9 logements en R+4 à Cayenne centre-ville.",
       "numero_avis": "26-3973",
       "date_publication": "2026-01-13",
@@ -7537,6 +7453,20 @@
       "source": "api",
       "type_marche": "Travaux",
       "autorite_contractante": "Sedre",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Transport de personnels du Régiment du service militaire adapté de la Martinique par voie routière",
+      "numero_avis": "26-11771",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-02-25",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11771",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "RSMA MARTINIQUE",
       "nature_avis": "Avis de marché"
     },
     {
@@ -7638,20 +7568,6 @@
       "nature_avis": "Avis de marché"
     },
     {
-      "titre": "Rehabilitation Des Espaces Exterieurs De L'Ecole Elementaire Henri Agarande",
-      "numero_avis": "26-9004",
-      "date_publication": "2026-01-26",
-      "date_limite_reponse": "2026-02-26",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-9004",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Commune de Cayenne",
-      "nature_avis": "Avis de marché"
-    },
-    {
       "titre": "Fourniture et aménagement d’un véhicule utilitaire aménagé à usage de dispositif mobile",
       "numero_avis": "26-8511",
       "date_publication": "2026-01-26",
@@ -7663,6 +7579,20 @@
       "source": "api",
       "type_marche": "Fournitures",
       "autorite_contractante": "GIP FCIP Réunion",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Rehabilitation Des Espaces Exterieurs De L'Ecole Elementaire Henri Agarande",
+      "numero_avis": "26-9004",
+      "date_publication": "2026-01-26",
+      "date_limite_reponse": "2026-02-26",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-9004",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "Commune de Cayenne",
       "nature_avis": "Avis de marché"
     },
     {
@@ -7775,6 +7705,34 @@
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "CACEM - Communauté d'Agglomération Centre Martinique",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Réhabilitation de terrains de football sur les commune du Moule et de Port-Louis",
+      "numero_avis": "26-11745",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "2026-02-26",
+      "departements": [
+        "971"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11745",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "CANGT",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "AMO pour élaborer un cahier des charges pour la conception et le déploiement de la plateforme logistique numérique eFTI4all en Martinique",
+      "numero_avis": "26-12623",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-02-26",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12623",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "COLLECTIVITE TERRITORIALE DE MARTINIQUE",
       "nature_avis": "Avis de marché"
     },
     {
@@ -7932,20 +7890,6 @@
       "nature_avis": "Avis de marché"
     },
     {
-      "titre": "Prestations d'entretien courant de VRD pour les opérations de l'EPFAG situées sur les secteurs CACL - CCDS - CCOG",
-      "numero_avis": "26-8836",
-      "date_publication": "2026-01-28",
-      "date_limite_reponse": "2026-02-27",
-      "departements": [
-        "973"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-8836",
-      "source": "api",
-      "type_marche": "Travaux",
-      "autorite_contractante": "Etablissement Public Foncier et d'Aménagement de la Guyane - EPFAG",
-      "nature_avis": "Avis de marché"
-    },
-    {
       "titre": "Etude urbaine et de programmation pour la rénovation du quartier NOVAPARC à CAYENNE.",
       "numero_avis": "26-9496",
       "date_publication": "2026-01-28",
@@ -7957,6 +7901,20 @@
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "2TER HABITAT (ex SIGUY-SIMKO)",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Prestations d'entretien courant de VRD pour les opérations de l'EPFAG situées sur les secteurs CACL - CCDS - CCOG",
+      "numero_avis": "26-8836",
+      "date_publication": "2026-01-28",
+      "date_limite_reponse": "2026-02-27",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-8836",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "Etablissement Public Foncier et d'Aménagement de la Guyane - EPFAG",
       "nature_avis": "Avis de marché"
     },
     {
@@ -8125,6 +8083,20 @@
       "source": "api",
       "type_marche": "Travaux",
       "autorite_contractante": "Communauté d'Agglomération de Dembéni-Mamoudzou (976)",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Mission à maitrise d'ouvrage (AMO) pour la passation de contrat d'assurance dans la commune de Dembéni.",
+      "numero_avis": "26-12072",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-02-27",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12072",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Ville de Dembeni (976)",
       "nature_avis": "Avis de marché"
     },
     {
@@ -8324,20 +8296,6 @@
       "nature_avis": "Avis de marché"
     },
     {
-      "titre": "ACQUISITION D’UN LOGICIEL DE GESTION DES DECHETS",
-      "numero_avis": "26-11531",
-      "date_publication": "2026-02-03",
-      "date_limite_reponse": "2026-03-02",
-      "departements": [
-        "971"
-      ],
-      "lien": "https://www.boamp.fr/avis/detail/26-11531",
-      "source": "api",
-      "type_marche": "Services",
-      "autorite_contractante": "CA Sud Basse-Terre",
-      "nature_avis": "Avis de marché"
-    },
-    {
       "titre": "Collecte des Déchets verts et Encombrants – Commune de Terre de Haut",
       "numero_avis": "26-11542",
       "date_publication": "2026-02-03",
@@ -8346,6 +8304,20 @@
         "971"
       ],
       "lien": "https://www.boamp.fr/avis/detail/26-11542",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "CA Sud Basse-Terre",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "ACQUISITION D’UN LOGICIEL DE GESTION DES DECHETS",
+      "numero_avis": "26-11531",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "2026-03-02",
+      "departements": [
+        "971"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11531",
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "CA Sud Basse-Terre",
@@ -8492,6 +8464,48 @@
       "nature_avis": "Avis de marché"
     },
     {
+      "titre": "ADMI- Maintenance du parc automobile du PNRM",
+      "numero_avis": "26-11683",
+      "date_publication": "2026-02-03",
+      "date_limite_reponse": "2026-03-04",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11683",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Parc naturel régional de la Martinique (972)",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "La fourniture, la livraison et l'installation de rayonnages mobiles pour une réserve au sein d'une salle patrimoniale à la Bibliothèque Universitaire du campus de Fouillole en Guad",
+      "numero_avis": "26-12274",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-03-04",
+      "departements": [
+        "971"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12274",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Université des Antilles",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Accord-Cadre Relatif Aux Prestations De Conseils Juridiques Pour La Periode 2026 A 2030",
+      "numero_avis": "26-12221",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-03-04",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12221",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "Sedre",
+      "nature_avis": "Avis de marché"
+    },
+    {
       "titre": "25DMT427_Réalisation des travaux d'aménagement du TCSP de l'Avenue Rico Carpaye- Commune de le Port",
       "numero_avis": "25-137652",
       "date_publication": "2025-12-16",
@@ -8601,6 +8615,20 @@
       "source": "api",
       "type_marche": "Fournitures",
       "autorite_contractante": "COMMUNE DU TAMPON",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Acquisition de drones pour le SDIS de Mayotte",
+      "numero_avis": "26-12044",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-03-05",
+      "departements": [
+        "976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12044",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "SDIS (976)",
       "nature_avis": "Avis de marché"
     },
     {
@@ -8730,6 +8758,20 @@
       "nature_avis": "Avis de marché"
     },
     {
+      "titre": "Marché global sectoriel portant conception construction aménagement entretien et maintenance pour la construction du Pavillon 8c Oncologie du site sud du CHU de la Réunion",
+      "numero_avis": "26-11716",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-03-06",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11716",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "CHU Sud Réunion",
+      "nature_avis": "Avis de marché"
+    },
+    {
       "titre": "MISE A JOUR DU SCHÉMA DIRECTEUR D’ALIMENTATION EN EAU POTABLE DE LA COMMUNAUTÉ D’AGGLOMÉRATION CENTRE LITTORAL",
       "numero_avis": "26-8307",
       "date_publication": "2026-01-25",
@@ -8797,6 +8839,90 @@
       "source": "api",
       "type_marche": "Fournitures",
       "autorite_contractante": "Edm électricité de Mayotte",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Confection et livraison de repas en liaison chaude pour les personnes âgées, fragilisées ou handicapées de la commune de Ducos",
+      "numero_avis": "26-11828",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-03-09",
+      "departements": [
+        "972"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11828",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "CCAS ville de Ducos",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "désignation d’un commissaire aux comptes pour la CCI Réunion",
+      "numero_avis": "26-12660",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-03-09",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12660",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "CCI ILE DE LA REUNION",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "FOURNITURE D'OXYGENE MEDICAL AVEC MISE A DISPOSITION DE BOUTEILLES SOUS FORME DE LOCATION POUR LE SDIS 973",
+      "numero_avis": "26-11939",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-03-09",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11939",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "SDIS 973",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Sécurisation du Système d'information",
+      "numero_avis": "26-11730",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-03-09",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11730",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "Commune de Petite-Ile",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Fourniture et pose d'abris vélos",
+      "numero_avis": "26-11949",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-03-09",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11949",
+      "source": "api",
+      "type_marche": "Fournitures",
+      "autorite_contractante": "VILLE DE LE PORT",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "TRAVAUX D'AMENAGEMENT D'UNE VOIE VERTE ET TOURISTIQUE ENTRE LA RN3 ET LA GRANDE FERME (2ème procédure)",
+      "numero_avis": "26-12164",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-03-09",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12164",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "COMMUNE DU TAMPON",
       "nature_avis": "Avis de marché"
     },
     {
@@ -8909,6 +9035,20 @@
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "Région Guadeloupe",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Marché de maitrise d’oeuvre partielle  pour des travaux de rénovation des voiries et réseaux divers de la résidence Bois de Rose",
+      "numero_avis": "26-12316",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-03-11",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12316",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "SEMSAMAR (973)",
       "nature_avis": "Avis de marché"
     },
     {
@@ -9035,6 +9175,34 @@
       "source": "api",
       "type_marche": "Travaux",
       "autorite_contractante": "CONSEIL RÉGIONAL DE LA REUNION",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "Nettoyage et entretien des locaux de la CIREST",
+      "numero_avis": "26-11494",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-03-16",
+      "departements": [
+        "974"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11494",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "CIREST : Communauté Intercommunale Réunion EST (974)",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "accord-cadre à bons de commande  pour l’exécution des travaux de Menues Réparations et d’entretien courant sur le patrimoine locatif de la SEMSAMAR, agence de Guyane",
+      "numero_avis": "26-11380",
+      "date_publication": "2026-02-04",
+      "date_limite_reponse": "2026-03-16",
+      "departements": [
+        "973"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-11380",
+      "source": "api",
+      "type_marche": "Travaux",
+      "autorite_contractante": "SEMSAMAR (973)",
       "nature_avis": "Avis de marché"
     },
     {
@@ -9245,6 +9413,20 @@
       "source": "api",
       "type_marche": "Services",
       "autorite_contractante": "CCI DE MAYOTTE",
+      "nature_avis": "Avis de marché"
+    },
+    {
+      "titre": "PRESTATIONS HOTELLERIE POUR LE CENTRE HOSPITALIER DE MAYOTTE",
+      "numero_avis": "26-12208",
+      "date_publication": "2026-02-05",
+      "date_limite_reponse": "2026-06-06",
+      "departements": [
+        "974,976"
+      ],
+      "lien": "https://www.boamp.fr/avis/detail/26-12208",
+      "source": "api",
+      "type_marche": "Services",
+      "autorite_contractante": "CENTRE HOSPITALIER DE MAYOTTE",
       "nature_avis": "Avis de marché"
     },
     {
