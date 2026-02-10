@@ -5,8 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}G.Take - Gestion des Appels d'Offres{% endblock %}</title>
-    
+    <title>
+        {% block title %}
+            {% if ao.titre %}{{ ao.titre|truncatechars:50 }} - PIL-MÉDIA{% else %}Détail AO - PIL-MÉDIA{% endif %}
+        {% endblock %}
+    </title>
     <!-- Polices -->
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     
@@ -24,8 +27,8 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="logo">
-                <div class="logo-icon">G</div>
-                <div class="logo-text">G.Take</div>
+                <div class="logo-icon">P</div>
+                <div class="logo-text">PILAO</div>
             </div>
 
             <nav class="nav">
